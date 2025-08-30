@@ -1,0 +1,20 @@
+.{
+    .name = .zengine,
+    .version = "0.1.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0x8c1eeb35ae6eb377,
+    .dependencies = .{
+        .sokol = .{
+            .url = "git+https://github.com/floooh/sokol-zig.git?ref=zig-0.14.1#162ed80f645863c4dcf09e1ba6b1f40e2d4beffe",
+            .hash = "sokol-0.1.0-pb1HK26VLQC1XOkHDW-5TglgwypAKIHGR2HPOTP6limn",
+        },
+        .shdc = .{
+            .url = "git+https://github.com/floooh/sokol-tools-bin#c240bd1d17d4192572ee6e0cdb6e2477e4a7df80",
+            .hash = "sokolshdc-0.1.0-r2KZDj7gkwRMQjYMiLigcvLi1O1jSnBGeA9qlLen4Rfz",
+        },
+    },
+}
