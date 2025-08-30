@@ -1,5 +1,6 @@
 // Smooth pixel filtering variant using derivative-aware UV biasing
 // Sokol '#pragma sokol' shader format, compatible with existing vertex layout
+// Idea from here: https://github.com/CptPotato/GodotThings/tree/master/SmoothPixelFiltering
 #pragma sokol @header const m = @import("math.zig")
 #pragma sokol @ctype mat4 m.Mat4
 
