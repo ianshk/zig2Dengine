@@ -1,5 +1,4 @@
--- Minimal example script (stub env). For now this won't run real Lua, but documents intent.
--- When real Lua is integrated, this should be executed and call into go.* to spawn an entity.
+-- Main lua entry point, stress test example
 
 local M = {}
 local cos, sin = math.cos, math.sin
