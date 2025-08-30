@@ -56,9 +56,9 @@ Test the camera with dragging with the mouse or camera zoom in with minus and pl
 
 ## Notes
 
-This is pretty rough and not at all ready for production. While its pretty fast and has some good ideas, I'd recommend using something like Defold or Godot for 2D game development. This is more of a proof of concept to see how far I could get with Zig and Lua using a modern game development pipeline.
+This is pretty rough and not at all ready for production. While it's pretty fast and has some good ideas, I'd recommend using something like Defold or Godot for 2D game development. This is more of a proof of concept to see how far I could get with Zig and Lua using modern game development methods.
 
-I have only tested it on the Mac (Uses Metal for rendering). It should work on Linux and Windows but I haven't tested it. Shaders are compiled using [sokol-shdc](https://github.com/floooh/sokol-tools).
+I have only tested it on macOS (using Metal for rendering). It should work on Linux and Windows though I haven't tested it. Shaders are compiled using [sokol-shdc](https://github.com/floooh/sokol-tools).
 
-Build script is [build.zig](build.zig) and [build.zig.zon](build.zig.zon).
+Build scripts are [build.zig](build.zig) and [build.zig.zon](build.zig.zon).
 
